@@ -83,6 +83,17 @@ events = [
     ("8 octobre 2023 - 21h00", "Fidji - Portugal (M6)")
 ]
 
+
+""" la suite a decommenter et ajouter a events[]
+    ("14 octobre 2023 - 17h00", "Quarter-Final 1: Winner Pool C vs Runner-Up Pool D (TF1)"),
+    ("14 octobre 2023 - 21h00", "Quarter-Final 2: Winner Pool B vs Runner-Up Pool A (TF1)"),
+    ("15 octobre 2023 - 17h00", "Quarter-Final 3: Winner Pool D vs Runner-Up Pool C (TF1)"),
+    ("15 octobre 2023 - 21h00", "Quarter-Final 4: Winner Pool A vs Runner-Up Pool B (TF1)"),
+    ("20 octobre 2023 - 21h00", "Semi-Final 1: Winner Quarter-Final 1 vs Winner Quarter-Final 2 (TF1)"),
+    ("21 octobre 2023 - 21h00", "Semi-Final 2: Winner Quarter-Final 3 vs Winner Quarter-Final 4 (TF1)"),
+    ("27 octobre 2023 - 21h00", "Bronze Final: Runner-Up Semi-Final 1 vs Runner-Up Semi-Final 2 (TF1)"),
+    ("28 octobre 2023 - 21h00", "Final: Winner Semi-Final 1 vs Winner Semi-Final 2 (TF1)")
+] """
 # Conversion des events en ics
 ics_events = "".join(event_to_ics(date_str, summary) for date_str, summary in events)
 
