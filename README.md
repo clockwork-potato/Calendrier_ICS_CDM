@@ -1,4 +1,4 @@
-# Générateur d'Événements iCalendar pour la Coupe du Monde
+# Générateur d'Événements iCalendar pour les matchs de Rugby
 
 Ce script Python génère un fichier `.ics` contenant les événements pour les matchs de la Coupe du Monde, permettant de les importer facilement dans la plupart des calendriers numériques.
 
