@@ -45,6 +45,7 @@ def event_to_ics(date_str, summary):
      "END:VEVENT\n"
  )
  return event_format
+```
+- **Ajouter dans events = [** la liste des matchs au format ' ("16 septembre 2028 - HDebut", "Nous - Versus (CHAINE)")'
 
-***oui***
 
